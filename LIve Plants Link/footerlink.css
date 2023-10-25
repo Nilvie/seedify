@@ -1,0 +1,26 @@
+.footerItems {
+	display: inline-block;
+	margin: 0px 15px;
+	
+}
+
+#footerMain {
+	background: #687a63;
+	color: white;
+	padding: 40px 120px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#footerIcons {
+	font-size: 45px;
+}
+
+#footerCopyright {
+	background: #576553;
+	color: white;
+	padding: 20px 60px;
+	height: 60px;
+	text-align: center;
+}

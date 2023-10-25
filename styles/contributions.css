@@ -1,0 +1,30 @@
+.contributions-Paragraph1 {
+	padding: 100px 100px 0px;
+	margin: 0px 0px 120px;
+	color: #666;
+}
+
+.contributions-Paragraph2 {
+	padding: 70px 100px 0px;
+	margin: 0px 0px 280px;
+	color: #666;
+}
+
+#contributions-Title {
+	font-size:50px;
+	margin-bottom: 15px;
+}
+
+#contributions-Image1 {
+	width: 440px;
+	height: 470px;
+	float:left;
+	margin-right: 20px;
+}
+
+#contributions-Image2 {
+	width: 350px;
+	height: 320px;
+	float:right;
+	margin-left: 20px;
+}

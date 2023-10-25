@@ -1,0 +1,219 @@
+<html>
+<head>
+<meta charset="utf-8" />
+    <title>Seedify</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/splash.css">
+    <link rel="stylesheet" href="styles/scndDiv.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<body>
+<header>
+<div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="index.html">Seedify</a></div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="readytoship.html">Ready to ship Bundles</a></li>
+          <li>
+            <a href="New and Featured.html" class="desktop-link">New and Featured</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Features</label>
+            <ul>
+              <li><a href="LinkNewArrival.html">New Arrivals</a></li>
+              <li><a href="Plantswelove.html">Plants we Love</a></li>
+          
+             <li><a href="BeginnerFriendly.html">Beginner Friendly</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="Shop.html" class="desktop-link">Shop</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Services</label>
+            <ul>
+              <li><a href="liveplants.html">Live Plants</a></li>
+              <li><a href="Succulents.html">Succulents</a></li>
+              <li><a href="Best for pet owner.html"> Best for Pet Owner</a></li>
+              <li>
+                <a href="More Items.html" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="Accessories.html"> Accessories</a></li>
+                  <li><a href="Pots.html">Pots</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="login.html">Log In</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fa fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class='fas fa-long-arrow-alt-right'></i></button>
+      </form>
+    </nav>
+</header>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  color: #666;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<a href='login.html'></a>
+<form action="action_page.php" method="post">
+  <div class="imgcontainer"><br><br><br>
+    <img src="login/images/avatar.png" alt="Avatar" class="avatar">
+  </div>
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#" style = "color:#666;">password?</a></span>
+  </div>
+</form>
+<footer>
+    <div id = "footerMain">
+        <a href = "aboutus.html">
+            <h3 class = "footerItems">About Us</h3>
+        </a>
+        <a href = "contactus.html">
+            <h3 class = "footerItems">Contact Us</h3>
+        </a>
+        <a href = "faq.html">
+            <h3 class = "footerItems">FAQ</h3>
+        </a>
+        <a href = "contributions.html">
+            <h3 class = "footerItems">Contributions</h3>
+        </a>
+        <a href = "careers.html">
+            <h3 class = "footerItems">Careers</h3>
+        </a>
+        </br>
+        </br>
+        <hr>
+        </br>
+        <p>
+            Our plants are sourced from veteran farmers to ensure
+            the best quality is given to our fellow customers. 
+            We gurantee that your ordered plants will arrive 
+            safely and happy.
+            Our Pots made from ceramic are made by our lovely team.
+            There are loads of pots to choose from. Small, Big, Minimal,
+            Complex, etc. Not only are our plants high quality, our pots
+            and services are too. We include an instruction manual in each
+            plant you order. It includes instructions on how often should you
+            water your plant, how much sunlight your light needs, how big the
+            pot should be if you're planning to transfer it, and the benefits of the 
+            plant.
+        </p>
+        </br></br>
+        <div id = "footerIcons">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-google-plus-square"></i>
+            <i class="fa fa-linkedin-square"></i>
+            <i class="fa fa-pinterest-square"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+    </div>
+        <div id = "footerCopyright">
+            &copy; 2020 Copyright All Rights Reserved
+        </div>
+</footer>
+</body>
+</html>

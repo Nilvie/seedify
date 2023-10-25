@@ -1,0 +1,18 @@
+#headerTitle {
+    display: inline;
+    margin: 0px 7px;
+    font-size: 40px;
+    font-family: 'Allan';
+}
+
+#headerText {
+    display: inline;
+    margin: 0px 9px; /*Text Spacing*/
+    font-size: 25px;
+    font-family: 'Acme';
+}
+
+#headerText:hover, #headerTitle:hover {
+    color: #ddbea9;
+    cursor: pointer;
+}

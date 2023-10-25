@@ -1,0 +1,124 @@
+#homePageDiv {
+	height: 630px;
+	width: 100%;
+    padding: 230px 100px;
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2) ), url('../images/homePageDiv.jpg');
+    object-fit: cover;
+    background-size: cover;
+    background-position:center top;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: right;
+
+}
+
+#mainTitle {
+    font-size: 70px;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+}
+
+#secondaryTitle {
+    font-size: 30px;
+}
+
+#homePageButton {
+    margin: 5px 0px;
+    padding: 15px 45px;
+    background: #6B705C;
+    color: #FFE8D6;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    font-family: 'Acme';
+}
+
+/*SECOND DIV*/
+#homePageSecondDiv {
+    background: white;
+    display: inline-block;
+    padding: 40px 30px;
+ }
+
+ #imageRowDiv {
+    background: white;
+    display: inline-block;
+    width: 29%;
+    margin: 0px 25px;
+    text-align: left;
+    font-family: 'ABeeZee';
+    font-size: 30px;
+    text-align: center;
+ }
+
+ #imageRowDiv1 {
+    background: white;
+    display: inline-block;
+    width: 100%;
+    margin: 0px 25px;
+    text-align: left;
+    font-family: 'ABeeZee';
+    font-size: 30px;
+    text-align: center;
+ }
+
+ #imageRowDiv2 {
+    background: white;
+    display: inline-block;
+    width: 20.4%;
+    margin: 0px 25px;
+    text-align: left;
+    font-family: 'ABeeZee';
+    font-size: 30px;
+    text-align: center;
+ }
+
+ #imageRowDiv3 {
+    background: white;
+    display: inline-block;
+    width: 29%;
+    margin: 0px 25px;
+    text-align: left;
+    font-family: 'ABeeZee';
+    font-size: 30px;
+    text-align: center;
+ }
+
+  #imageRow {
+    height: 470px;
+    width: 100%;
+    border: 1px solid #ddd;
+ }
+
+ #imageRow1 {
+    height: 470px;
+    width: 30%;
+    border: 1px solid #ddd;
+ }
+
+ #imageRow2 {
+    height: 370px;
+    width: 100%;
+    border: 1px solid #ddd;
+ }
+
+ #imageRow3 {
+    height: 470px;
+    width: 100%;
+    border: 1px solid #ddd;
+ }
+
+ #imageRow:hover {
+     cursor: pointer;
+ }
+
+ #homePageColumns {
+    column-count: 3;
+    column-gap: 90px;
+    color: #555;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    margin: 10px 40px 70px;
+    table-layout: fixed;
+}

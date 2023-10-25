@@ -1,0 +1,82 @@
+body {
+    font-family: 'ABeeZee';font-size: 22px;
+}
+
+.mainFontColor {
+    color: #FFE8D6;
+}
+
+#mainTitle::selection {
+    text-shadow: 5px 5px #cb997e;
+    background: none;
+}
+
+#secondaryTitle::selection {
+    text-shadow: 2px 2px #cb997e;
+    background: none;
+}
+
+br::selection {
+    opacity: 0;
+}
+
+.paragraphWhiteBgColor {
+    color: #666;
+}
+
+#homePageColumns::selection {
+    background: #687a63;
+    color: white;
+}
+
+#footerItems::selection {
+	background: white;
+	color: #687a63;
+}
+
+#plantPrice {
+    float: right;
+    font-size: 17px;
+    padding: 2px 0;
+}
+
+#livePlants {
+    background: white;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.productTitle {
+    text-align: left;
+    font-size: 25px;
+}
+#new Arrival {
+    background: white;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.productTitle {
+    text-align: left;
+    font-size: 25px;
+}
+
+a {
+    color:white;
+}
+
+a:hover {
+    color:#bbb;
+}
+
+  #imageRow2:hover  {
+    filter: brightness(98%);
+    z-index:2;
+ }
+
+ #imageRow3:hover {
+    filter: brightness(98%);
+    z-index:2;
+ }
